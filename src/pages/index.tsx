@@ -74,7 +74,7 @@ export default function Home() {
             </div>
           </div>
         </FrontSide>
-        <BackSide className={clsx(styles.card, styles.backCard)}>
+        <BackSide className={clsx(styles.backCard)}>
           <p style={{ marginTop: `2rem` }}>
             Inventive Front-End Developer with 2+ years of broad expertise in
             JavaScript ES6/ES2017 & React areas with willingness to learn and
