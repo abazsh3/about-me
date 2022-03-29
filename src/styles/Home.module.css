@@ -1,0 +1,82 @@
+.card {
+  width: 40rem;
+  height: 42rem;
+  max-width: 90vw;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.frontCard {
+  position: relative;
+  background-image: url(../../public/images/bg-pattern-card.svg) !important;
+  background-repeat: repeat-x !important;
+  background-position: top 30% !important;
+}
+.frontCard {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+.profilePicture {
+  background-color: white;
+  padding: 0.5rem;
+
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+  position: relative;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, -29%);
+}
+.detailsSection {
+  position: absolute;
+  top: 50%;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nameSection {
+  flex: 1;
+  margin-top: 0.5rem;
+
+  width: 100%;
+}
+.line {
+  width: 100%;
+  border-bottom: 1.5px solid rgba(150, 150, 150, 0.2);
+  margin-top: 1rem;
+}
+.followerSection {
+  width: 80%;
+  padding: 2rem 0 2rem;
+  flex: 1;
+  display: grid;
+  row-gap: 1.5rem;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+.downloadButton {
+  padding: 1.5rem 2rem;
+
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  background-color: white;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media only screen and (max-width: 600px) {
+  .downloadButton {
+    top: 85%;
+  }
+}
