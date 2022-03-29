@@ -46,6 +46,7 @@ a {
   text-decoration: none;
   color: #19a2ae;
   font-size: 1.6rem;
+  max-width: max-content;
 }
 p {
   font-size: 1.5rem;
