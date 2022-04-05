@@ -71,12 +71,12 @@
   border-radius: 1rem;
   background-color: white;
   position: absolute;
-  top: 75%;
+  bottom: 7%;
   left: 50%;
   transform: translateX(-50%);
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .downloadButton {
     top: 85%;
   }
-}
+} */
